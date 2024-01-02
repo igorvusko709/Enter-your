@@ -1,0 +1,3 @@
+ for ($i = 0; $i < $attempts; $i++) {
+        echo "Enter your guess (attempt " . ($i + 1) . "): ";
+        $guess = intval(fgets(STDIN));
